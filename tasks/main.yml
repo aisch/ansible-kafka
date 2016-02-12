@@ -1,5 +1,4 @@
 ---
-- include: check-env.yml
 - include: java.yml
 - include: system.yml
 - include: limits.yml

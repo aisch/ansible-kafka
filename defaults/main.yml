@@ -1,8 +1,8 @@
 ---
-zookeeper_hosts: # <-- must be overridden further up the chain
+zookeeper_hosts: localhost:2181
 # e.g. srvr1:2181,srvr2:2181
 
-kafka_hosts: # <-- must be overridden further up the chain
+kafka_hosts: localhost:9092
 # e.g. srvr1:9092,srvr2:9092
 
 kafka_version: "0.8.2.1"
